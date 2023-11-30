@@ -1,3 +1,4 @@
+import math
 def quota():
     
     input_floats = input("nums seperated by comma: ")
