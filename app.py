@@ -1,6 +1,7 @@
 import math
+import os
 def quota():
-    
+    os.system('cls' if os.name == 'nt' else 'clear') 
     input_floats = input("nums seperated by comma: ")
     float_list = [float(num) for num in input_floats.replace(" ", "").split(",")]
     for num in float_list:
